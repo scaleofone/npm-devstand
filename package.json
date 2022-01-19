@@ -1,0 +1,12 @@
+{
+  "name": "devstand",
+  "version": "0.0.2",
+  "description": "Invoke devstand commands",
+  "bin": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scaleofone/devstand.git"
+  },
+  "author": "max@scaleofone.com",
+  "homepage": "https://github.com/scaleofone/devstand#readme"
+}

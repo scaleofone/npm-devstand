@@ -1,1 +1,1 @@
-# Example
+# Invoke devstand commands
