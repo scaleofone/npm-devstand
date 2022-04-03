@@ -1,9 +1,9 @@
 {
   "name": "devstand",
   "type": "module",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Invoke devstand commands",
-  "bin": "./index.js",
+  "bin": "./index.cjs",
   "files": [
     "package.json",
     "README.md",
