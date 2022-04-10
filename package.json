@@ -1,7 +1,7 @@
 {
   "name": "devstand",
   "type": "module",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Invoke devstand commands",
   "bin": "./index.cjs",
   "files": [
@@ -11,10 +11,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scaleofone/devstand.git"
+    "url": "git+https://github.com/scaleofone/npm-devstand.git"
   },
   "author": "max@scaleofone.com",
-  "homepage": "https://github.com/scaleofone/devstand#readme",
+  "homepage": "https://github.com/scaleofone/npm-devstand#readme",
   "devDependencies": {
     "@types/node": "^17.0.10",
     "commander": "^8.3.0",
