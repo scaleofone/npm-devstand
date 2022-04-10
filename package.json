@@ -1,7 +1,7 @@
 {
   "name": "devstand",
   "type": "module",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Invoke devstand commands",
   "bin": "./index.cjs",
   "files": [
@@ -15,6 +15,7 @@
   },
   "author": "max@scaleofone.com",
   "homepage": "https://github.com/scaleofone/npm-devstand#readme",
+  "license": "Apache-2.0",
   "devDependencies": {
     "@types/node": "^17.0.10",
     "commander": "^8.3.0",
