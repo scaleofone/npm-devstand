@@ -4,7 +4,7 @@ import process from 'process'
 
 import { Command } from 'commander'
 const program = new Command()
-program.version('0.0.2')
+program.version('0.0.6')
 
 program.option('-v, --verbose', 'More verbose output', false)
 
