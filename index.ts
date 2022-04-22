@@ -33,6 +33,7 @@ import operationManifests from './operations/manifests'
 program
     .command('manifests')
     .option('-j|--json', 'Export as JSON')
+    .option('-C|--nocolor', 'Disable syntax highlighting')
     .argument('<breadboard>', 'Path to jsonnet breadbord file')
     .description('Export jsonnet file to manifests')
     .action(operationManifests)

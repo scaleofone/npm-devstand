@@ -44,16 +44,19 @@ export default function (breadboardSrc: string, options: OptionValues, command: 
         return
     }
 
-    if (options.json === true) {
-        console.log(JSON.stringify({
+    let lang: 'json' | 'yaml' = (options.json === true) ? 'json' : 'yaml'
+    let highlight: boolean = (process.stdout.isTTY === true && options.nocolor !== true)
+
+    let output: string
+    if (lang == 'json') {
+        output = JSON.stringify({
             apiVersion: 'v1',
             kind: 'List',
             items: resources,
-        }, null, 2))
-        return
+        }, null, 2)
+    } else {
+        output = resources.map(r => Yaml.stringify(r)).join('\n---\n')
     }
 
-    console.log(
-        resources.map(r => Yaml.stringify(r)).join('\n---\n')
-    )
+    console.log(output)
 }
